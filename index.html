@@ -9,30 +9,33 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="logo" width="auto" height="32px"/>
-        <nav>
-            <ul>
-                <li>
-                    <p class="pass"></p><a href="#">Inicio</a></p>
-                </li>
-                <li>
-                    <p class="pass"><a href="https://icofont.com/blog" target="_blank">Nosotros</a></p>
-                </li>
-                <li>
-                    <p class="pass"><a href="https://www.evernote.design/" target="_blank">Contacto</a></p>
-                </li>
-            </ul>
-        </nav>
+        <div class="nav-content">
+            <img src="images/logo.png" alt="logo" width="auto" height="32px"/>
+            <nav>
+                <ul>
+                    <li>
+                        <p class="pass"></p><a href="#">Inicio</a></p>
+                    </li>
+                    <li>
+                        <p class="pass"><a href="https://icofont.com/blog" target="_blank">Nosotros</a></p>
+                    </li>
+                    <li>
+                        <p class="pass"><a href="https://www.evernote.design/" target="_blank">Contacto</a></p>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <section class="hero-container">
             <div class="hero-content">
-                <h1>Conocé el futuro del gaming</h1>
-                <h3>¡En Google Stadia podes encontrar los mejores juegos <br>
-                     siempre en la nube!</h3>
-                <button class="button primary-button">PRUEBA GRATUITA</button>
+                <div class="hero-txt">
+                    <h1>Conocé el futuro del gaming</h1>
+                    <h3>¡En <strong>Google Stadia</strong> podes encontrar los mejores juegos siempre en la nube!</h3>
+                    <button class="button primary-button">PRUEBA GRATUITA</button>
+                </div>
+                <img class="hero-image" src="/images/consola-web-2.png" alt="ilustración consola">
             </div>
-            <img class="hero-image" src="/images/consola-web-2.png" alt="ilustración consola">
         </section>
     </main>
     <section class="catalogue-container">
@@ -52,23 +55,37 @@
                 <img src="https://lh3.googleusercontent.com/ij-TYJgI8ckxeiom8EljwnjWdW8REOUG8__LHNgdApkinfoWMhYc05ER6CVGJLrydNTKbEXKzxvZRrIXUt3s66ClETtdtALkUIAlihDodoGlzh9fzhFEs4d7O6oW=w300-h400-rw-no-v1-nu" alt="portada juego"/>
             </span>
             <span class="img-card-catalogue">
-                <img src="https://lh3.googleusercontent.com/zsemw6DnC8yT-dVYHqgYNkSdkJwds4xGvrNpq6jiaWUB1zVggZaTEjH4NxAevS-xc3A2mtZwer0BmEF0GMF1L8E0lBTVbjyZ1MO0K3DS58mwG-rYDt5DuR_TKpk=w300-h400-rw-no-v1-nu" alt="portada juego"/>
-            </span>
-            <span class="img-card-catalogue">
                 <img src="https://lh3.googleusercontent.com/AMXBMdmmlgqDlsSwJnmaQLROAtK3ECE2x0mYIwcswqlD0TH_IxMYXaVplW4CkcBmjFdG_ljLFXCsliqS2piaadK_72ooXctBXo3xLX38Hdv96qdasxRJWesxPCE=w300-h400-rw-no-v1-nu" alt="portada juego"/>
             </span>
         </div>
     </section>
     <section class="contact-container">
-        <form onsubmit="">
-            <input type="text" placeholder="Nombre y Apellido">
-            <input type="text" placeholder="E-mail">
-            <textarea placeholder="Escriba aquí su consulta..."></textarea>
-            <button type="submit" class="primary-button">Enviar</button>
-        </form>
+        <div class="contact-content">
+            <form onsubmit="">
+                <input type="text" placeholder="Nombre y Apellido">
+                <input type="text" placeholder="E-mail">
+                <textarea placeholder="Escriba aquí su consulta..."></textarea>
+                <button type="submit" class="primary-button">Enviar</button>
+            </form>
+        </div>
     </section>
     <footer>
-        <p>Brought with ❤ by Google</p>
+        <div class="footer-content">
+            <img class="isologotipo-stadia" src="./images/isologotipo-stadia.png"  alt="isologotipo-stadia.png" height="36px"/>
+           <div class="iconos-rrss">
+                <a href="https://www.facebook.com/GoogleStadia/" target="_blank">
+                    <img src="./images/ico-fb.svg" alt="facebook logo" height="24px"/>
+                </a>
+                <a href="https://www.instagram.com/googlestadia/" target="_blank">
+                <img src="./images/ico-ig.svg" alt="instagram logo" height="24px"/>
+                </a>
+                <a href="https://www.youtube.com/channel/UCQKyy9Wl7hsVn1BP7BC53Yg" target="_blank">
+                <img src="./images/ico-yt.svg" alt="youtube logo" height="24px"/>
+                </a>
+           </div>
+        </div>
     </footer>
 </body>
 </html>
+
+<a href=""></a>
