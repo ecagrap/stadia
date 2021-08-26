@@ -22,7 +22,7 @@ a {
     justify-content: space-between; /* espaciado automatico */
     align-items: center;
     max-width: 1200px; 
-    padding: 0rem 2rem; /* margen para cuando se reduce la pantalla */
+    padding: 1rem 2rem; /* margen para cuando se reduce la pantalla */
     margin: auto; /* centra el objeto en el medio */
 }
 
@@ -35,7 +35,6 @@ body {
 }
 
 nav ul {
-    padding: 1rem 0rem;
     display: flex;
     flex-direction: row;
 }
@@ -77,6 +76,10 @@ nav a:hover {
     background: #de3334;
   }
 
+  .ico-menu {
+      display: none;
+  }
+
 .hero-container {
     height: auto;
     background-color: #1d252d;
@@ -113,10 +116,11 @@ nav a:hover {
     width: 12rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-    font-weight: 800;
+    font-weight: 600;
+    letter-spacing: 1px;
     background: linear-gradient(90deg,rgba(224,47,63,1) 50%,rgba(220,24,96,1) 100%);
     color: white;
-    padding: 1rem;
+    padding: 1rem 0.5rem;
     border-radius: 5px;
     border-color: transparent;
 }
@@ -151,7 +155,6 @@ nav a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
 
 .img-card-catalogue {
@@ -161,8 +164,6 @@ nav a:hover {
     margin: 1rem;
     width: 200px;
     height: auto;
-    
-
 }
 
 .img-card-catalogue img {
@@ -235,4 +236,58 @@ footer {
 
 .iconos-rrss img {
     padding-left: 1rem;
+}
+
+@media only screen and (max-width: 425px) {
+    nav {
+        display: none;
+    }
+
+    .ico-menu {
+        display: inline-block;
+        margin: 1rem 0rem;
+    }
+
+    .hero-container {
+        padding: 8rem 2rem 4rem 2rem;
+    }
+
+    .hero-txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hero-content h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .hero-content h3 {
+        font-size: 1.5rem;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .hero-image {
+        display: none;
+    }
+
+    .catalogue-container {
+        padding: 4rem 2rem;
+    }
+
+    .catalogue-title {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .contact-content button {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+    
+
+    
 }
