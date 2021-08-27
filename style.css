@@ -199,6 +199,36 @@ nav a:hover {
 
 }
 
+.beneficios-content {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto
+}
+
+.beneficio-group {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.beneficio-group img {}
+
+.beneficio-group h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 1rem 0rem;
+    color: #de3334;
+    text-align: center;
+}
+
+.beneficio-group p {
+    text-align: center;
+    
+}
+
 .contact-container {
     background-color: #f8f9fa;
     border-top: #e9ecef 2px solid;
